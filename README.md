@@ -3,7 +3,7 @@
 Eliminasi Gauss yang ditulis sendiri, tanpa `np.linalg.solve`, dan mencetak setiap operasi baris.
 Gauss elimination written from scratch, no `np.linalg.solve`, printing every row operation.
 
-[Bahasa Indonesia](#bahasa-indonesia) · [English](#english)
+[id](#id) · [en](#en)
 
 ```
  2x +  y −  z =   8
@@ -37,7 +37,7 @@ z = -1.00
 Keluaran di atas dipotong dari `python gauss_solver.py`. Setiap langkah aslinya diikuti matriks augmented.
 The output above is trimmed from `python gauss_solver.py`. Every step is followed by the augmented matrix in the real output.
 
-## Bahasa Indonesia
+## id
 
 ### Cara pakai
 
@@ -81,7 +81,7 @@ pytest
 
 Tes mencakup lima jenis sistem (unik, tanpa solusi, tak hingga, pivot nol di baris pertama, dan 30 sistem acak yang dicocokkan dengan `np.linalg.solve`), serta input yang dimensinya salah.
 
-## English
+## en
 
 ### Usage
 
